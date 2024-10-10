@@ -57,8 +57,14 @@ function App() {
 
     return (
         <Router>
-            <div className={`App ${theme}`}> {/* Apply the theme as a class */}
-                <Header setTheme={setTheme} /> {/* Pass setTheme as a prop */}
+            <div className={`App ${theme}`}> 
+                <Header setTheme={setTheme} /> 
+                
+                
+                <div className="welcome-message">
+                    {user && <p>Welcome, {user.email}</p>} 
+                </div>
+                
                 <div className="content">
                     <Routes>
                         <Route path="/" element={<HomePage theme={theme} />} /> {/* Pass theme prop */}
@@ -70,7 +76,7 @@ function App() {
                         <Route path="/payment" element={<Payment setTheme={setTheme} />} />
                         <Route path="/tutorials" element={<TutorialPage />} />
                         <Route path="/upload" element={<UploadVideo />} />
-                        <Route path="/chat" element={<ChatPage />} /> 
+                        <Route path="/chat" element={<ChatPage />} />
                         <Route path="/forgot-password" element={<ForgotPassword />} />
                     </Routes>
                 </div>
