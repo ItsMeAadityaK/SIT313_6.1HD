@@ -1,0 +1,28 @@
+.newsletter-signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+}
+
+.signup-text {
+    font-size: 18px;
+    margin-right: 20px;
+    flex: 0 0 auto;
+}
+
+.email-input {
+    width: 50%; 
+    padding: 8px;
+    border: 2px solid #ccc;
+    margin-right: 10px;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background-color: #343b34;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

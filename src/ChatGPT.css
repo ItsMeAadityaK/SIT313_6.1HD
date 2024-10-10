@@ -1,0 +1,51 @@
+.chat-gpt-container {
+    background-color: #f9f9f9; /* Light background color to match your application */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    padding: 20px; /* Space around the content */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px; /* Limit width for better readability */
+    margin: 20px auto; /* Center the component on the page */
+}
+
+.chat-messages {
+    max-height: 300px; /* Limit height for the chat area */
+    overflow-y: auto; /* Allow scrolling if messages exceed the height */
+    margin-bottom: 10px; /* Space between messages and input */
+}
+
+.chat-messages div {
+    margin: 5px 0; /* Space between messages */
+    padding: 8px; /* Padding inside message bubbles */
+    border-radius: 4px; /* Rounded corners for messages */
+}
+
+.user {
+    background-color: #d1e7dd; /* Light green for user messages */
+    align-self: flex-end; /* Align user messages to the right */
+}
+
+.bot {
+    background-color: #cfe2ff; /* Light blue for bot messages */
+    align-self: flex-start; /* Align bot messages to the left */
+}
+
+input[type="text"] {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Padding inside input */
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 4px; /* Rounded corners for input */
+    margin-bottom: 10px; /* Space below input */
+}
+
+button {
+    background-color: #39434e; /* Button color (green) */
+    color: white; /* Text color for button */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for button */
+    padding: 10px 15px; /* Padding inside button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #2e373f; /* Darker green on hover */
+}

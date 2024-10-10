@@ -1,0 +1,76 @@
+/* Container for the tutorials section */
+.tutorial-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+/* Heading for the tutorials section */
+.tutorials-heading {
+    margin-bottom: 20px;
+    font-size: 44px;
+    color: #333;
+    margin-top: 0%;
+}
+
+/* Settings for cards in the tutorials section */
+.ui.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ui.card {
+    flex-grow: 1;
+    width: 30%;
+    box-shadow: none;
+}
+
+.ui.card .image img {
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+}
+
+.ui.card .content {
+    padding: 10px;
+}
+
+.ui.card .header {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.ui.card .meta {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.ui.card .description {
+    font-size: 14px;
+    color: #555;
+}
+
+.rating-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-name {
+    margin-left: 8px;
+}
+
+/* Styling for the 'See all tutorials' button */
+.see-all-tutorials {
+    background-color: grey;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}

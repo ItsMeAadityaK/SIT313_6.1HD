@@ -1,0 +1,51 @@
+.footer {
+    background-color: #24606c;  /* Adjust the color as per your theme */
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+html {
+    scroll-behavior: smooth; /* Add this to your CSS file */
+}
+
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 24px; /* Set the size of the icons */
+    height: 24px;
+    margin-right: 10px; /* Space between the icon and the text */
+}
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-bottom h2{
+    color : #000000
+}
+
+.footer-bottom a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+}

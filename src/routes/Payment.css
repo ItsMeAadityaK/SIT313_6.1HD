@@ -1,0 +1,16 @@
+.payment-page {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.payment-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}

@@ -1,0 +1,87 @@
+/* PostForm.css */
+.post-form {
+    
+    margin-top: 20px;
+}
+
+.post-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.upload-button:hover {
+    background-color: #2e373f;
+}
+
+.post-form input,
+.post-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.post-form textarea {
+    height: 100px; /* Adjust textarea height for description */
+}
+
+.post-button {
+    padding: 10px 20px;
+    background-color: #39434e;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+}
+
+.post-button:hover {
+    background-color: #555;
+}
+
+/* Hide the default file input */
+#fileInput {
+    display: none;
+}
+
+/* Custom styles for the Browse button */
+.browse-button {
+    background-color: #39434e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.browse-button:hover {
+    background-color: #2e373f;
+}
+
+/* Styles for the upload button */
+.upload-button {
+    background-color: #39434e;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.upload-button:hover {
+    background-color: #2e373f;
+}

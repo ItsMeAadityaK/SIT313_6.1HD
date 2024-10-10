@@ -1,0 +1,51 @@
+/* Signup.css */
+.signup-container {
+    width: 350px;  /* Adjusted width for the signup box */
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.signup-input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Updated Sign up button to match the .btn style */
+.signup-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #39434e;  /* Updated to match the color of the homepage button */
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;  /* Consistent with .btn style */
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup-button:hover {
+    background-color: #2e373f;  /* Darker shade on hover */
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}

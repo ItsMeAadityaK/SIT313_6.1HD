@@ -1,0 +1,14 @@
+.upload-video-container {
+    padding: 20px;
+}
+
+.upload-video-container input {
+    margin: 10px 0;
+    padding: 10px;
+    width: calc(100% - 22px); /* Full width minus padding */
+}
+
+.upload-video-container button {
+    padding: 10px 20px;
+    cursor: pointer;
+}

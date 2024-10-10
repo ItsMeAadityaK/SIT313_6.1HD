@@ -1,0 +1,46 @@
+/* App.css */
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.header-div {
+    background-color: #007bff;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.footer-div {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.homepage-container {
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+
+/* Light theme */
+.homepage-container.light {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Premium theme */
+.homepage-container.premium {
+    background-color: #39434e;
+    color: #fff;
+}

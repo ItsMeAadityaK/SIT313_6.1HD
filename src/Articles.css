@@ -1,0 +1,79 @@
+.articles-heading {
+    text-align: center;
+    margin-bottom: 40px; 
+    font-size: 44px;
+    color: #333;
+    margin-top: 0%;
+}
+
+
+/* Container for the articles section */
+.article-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+/* Semantic UI specific overrides for card groups and individual cards */
+.ui.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ui.card {
+    flex-grow: 1;
+    width: 30%;
+}
+
+/* Image styling, ensuring they stay within the specified size */
+.ui.card .image img {
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+}
+
+/* Content styling for header, meta, and description within cards */
+.ui.card .content {
+    padding: 10px;
+}
+
+.ui.card .header {
+    font-size: 16px; 
+    margin-bottom: 5px;
+}
+
+.ui.card .meta {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.ui.card .description {
+    font-size: 14px; 
+    color: #555;
+}
+
+/* Rating and author name layout */
+.rating-author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-name {
+    margin-left: auto;
+}
+
+/* Styling for the 'See all articles' button */
+.see-all-articles {
+    background-color: grey;
+    color: white;
+    border-radius: 15px; 
+    padding: 10px 20px;
+    margin-top: 20px;  
+    width: 200px;  
+    margin-left: auto;
+    margin-right: auto; 
+}

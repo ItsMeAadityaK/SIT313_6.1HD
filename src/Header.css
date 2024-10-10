@@ -1,0 +1,65 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 15px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 700px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-left: 15px;
+}
+
+.btn {
+  background-color: #39434e;  /* Default button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #2e373f;  /* Darker shade on hover */
+}
+
+.post-btn {
+  background-color: #39434e;
+}
+
+.post-btn:hover {
+  background-color: #2e373f;
+}
+
+.login-btn {
+  background-color: #39434e;
+}
+
+.login-btn:hover {
+  background-color: #2e373f;
+}

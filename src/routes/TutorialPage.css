@@ -1,0 +1,25 @@
+.tutorial-page {
+    padding: 20px;
+}
+
+.tutorial-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tutorial-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 320px;
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+.rating span {
+    font-size: 24px;
+    cursor: pointer;
+}
