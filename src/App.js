@@ -1,3 +1,4 @@
+// App.js
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Header from './Header';
@@ -58,21 +59,15 @@ function App() {
     return (
         <Router>
             <div className={`App ${theme}`}> 
-                <Header setTheme={setTheme} /> 
-                
-                
-                <div className="welcome-message">
-                    {user && <p>Welcome, {user.email}</p>} 
-                </div>
-                
+                <Header setTheme={setTheme} user={user} />  {/* Pass user as a prop */}
                 <div className="content">
                     <Routes>
-                        <Route path="/" element={<HomePage theme={theme} />} /> {/* Pass theme prop */}
+                        <Route path="/" element={<HomePage theme={theme} />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/signup" element={<Signup />} />
                         <Route path="/post" element={<ProtectedRoute element={<PostPage />} />} />
                         <Route path="/find-question" element={<ProtectedRoute element={<FindQuestionPage />} />} />
-                        <Route path="/plans" element={<Plans setTheme={setTheme} />} /> {/* Pass setTheme prop */}
+                        <Route path="/plans" element={<Plans setTheme={setTheme} />} />
                         <Route path="/payment" element={<Payment setTheme={setTheme} />} />
                         <Route path="/tutorials" element={<TutorialPage />} />
                         <Route path="/upload" element={<UploadVideo />} />

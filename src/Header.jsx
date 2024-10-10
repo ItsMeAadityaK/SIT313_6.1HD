@@ -1,10 +1,11 @@
+// Header.js
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { auth } from './firebase';
 import { signOut, onAuthStateChanged } from 'firebase/auth';
 import './Header.css';
 
-const Header = ({ setTheme }) => {
+const Header = ({ setTheme, user }) => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const navigate = useNavigate();
 
@@ -45,14 +46,12 @@ const Header = ({ setTheme }) => {
                         <Link to="/post">
                             <button className="btn post-btn">Post</button>
                         </Link>
-                    
                         <Link to="/upload">
                             <button className="btn upload-btn">Upload Video</button>
                         </Link>
                         <Link to="/tutorials">
-                                <button className="btn tutorials-btn">View Tutorials</button>
+                            <button className="btn tutorials-btn">View Tutorials</button>
                         </Link>
-
                     </>
                 )}
 
@@ -72,6 +71,9 @@ const Header = ({ setTheme }) => {
                     </Link>
                 )}
             </div>
+
+            {/* Display the welcome message */}
+            {user && <p className="welcome-message">Welcome, {user.email}</p>}
         </div>
     );
 };
